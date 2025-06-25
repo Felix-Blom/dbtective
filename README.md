@@ -5,14 +5,14 @@ On the case for your dbt best practices.
 
 ---
 
-> ( •_•)>⌐■-■   dbt-tective  
+> ( •_•)>⌐■-■   dbtective  
 > (⌐■_■)        Case solved!
 
-## What is dbt-tective?
+## What is dbttective?
 
 [dbt](https://www.getdbt.com/) (Data Build Tool) is a powerful framework for building, testing, and documenting data models in your data warehouse. As teams scale, dbt projects accumulate a wealth of metadata: documentation, tests, ownership, access controls, column types, constraints, and more. Managing the consistency and quality of this metadata at scale can become overwhelming.
 
-**dbt-tective** helps teams uncover inconsistencies, enforce best practices, and maintain high-quality metadata across their dbt projects. By programmatically defining and enforcing rules, dbt-tective makes it easier to keep your dbt project organized, documented, and production-ready.
+**dbt-tective** helps teams uncover inconsistencies, enforce best practices, and maintain high-quality metadata across their dbt projects. By programmatically defining and enforcing rules, dbtective makes it easier to keep your dbt project organized, documented, and production-ready.
 
 ## Features
 
@@ -23,9 +23,9 @@ On the case for your dbt best practices.
 - [ ] **Gamified scoring**: Assigns "maturity scores" to your dbt entities, making metadata improvements trackable and fun.
 - [ ] **CI/CD ready**: Integrate with your continuous integration workflows to prevent metadata drift.
 
-## Why dbt-tective?
+## Why dbtective?
 
-As dbt projects grow, ensuring high-quality, consistent metadata becomes a detective job of its own. dbt-tective shines a light on the mysteries in your dbt project, helping your team spot issues before they become problems.
+As dbt projects grow, ensuring high-quality, consistent metadata becomes a detective job of its own. dbtective shines a light on the mysteries in your dbt project, helping your team spot issues before they become problems.
 
 ## Documentation
 
@@ -35,7 +35,7 @@ For now, usage examples, rule configuration, and contributing guidelines will be
 
 ## Contributing
 
-Want to help make dbt-tective even better? Contributions are very welcome! Please see the [contributing guide](./CONTRIBUTING.md) for more on how to get started. 🚀
+Want to help make dbtective even better? Contributions are very welcome! Please see the [contributing guide](./CONTRIBUTING.md) for more on how to get started. 🚀
 
 ---
 

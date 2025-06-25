@@ -27,7 +27,7 @@ fn main() -> Result<()> {
         Some(Commands::Detect { project_directory }) => {
             println!(
                 "  {}",
-                "   ( •_•)>⌐■-■    dbt-tective is on the case!".bright_cyan()
+                "   ( •_•)>⌐■-■    dbtective is on the case!".bright_cyan()
             );
 
             println!(

@@ -1,4 +1,4 @@
-# Contributing to dbt-tective
+# Contributing to dbtective
 
 Welcome! 🎩  
 Thank you for your interest in contributing to **dbt-tective**. We value all contributions—whether it’s bug reports, features, documentation, or feedback.
