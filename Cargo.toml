@@ -1,6 +1,9 @@
-[package]
-name = "dbtective"
-version = "0.1.0"
-edition = "2021"
+[workspace]
+members = [
+    "crates/dbtective-cli",
+    "crates/dbtective-core",
+]
 
-[dependencies]
+
+[workspace.dependencies]
+anyhow = "1.0.98"
