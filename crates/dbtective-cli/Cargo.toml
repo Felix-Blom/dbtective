@@ -7,3 +7,4 @@ edition = "2021"
 anyhow.workspace = true
 clap = { version = "4.5.40", features = ["derive"] }
 colored = "3.0.0"
+dbtective-core = { path = "../dbtective-core" }
