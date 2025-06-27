@@ -1,5 +1,6 @@
 use super::resource::{DbtResource, ResourceType};
 use std::collections::HashMap;
+use std::path::PathBuf;
 
 #[derive(Debug, Clone)]
 pub struct Model {
@@ -8,8 +9,10 @@ pub struct Model {
     pub tags: Vec<String>,
     pub tests: Vec<String>,
     pub meta: HashMap<String, String>,
+    pub materialized: Option<String>,
+    pub sql_file: Option<PathBuf>,
+    pub yaml_file: Option<PathBuf>,
 }
-
 impl Model {
     pub fn new(name: String) -> Self {
         Self {
@@ -18,6 +21,9 @@ impl Model {
             tags: Vec::new(),
             tests: Vec::new(),
             meta: HashMap::new(),
+            materialized: None,
+            sql_file: None,
+            yaml_file: None,
         }
     }
 

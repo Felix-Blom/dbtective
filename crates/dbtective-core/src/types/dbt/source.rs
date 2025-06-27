@@ -9,6 +9,8 @@ pub struct Source {
     pub tags: Vec<String>,
     pub tests: Vec<String>,
     pub meta: HashMap<String, String>,
+    pub yaml_file: Option<String>,
+    pub sql_file: Option<String>,
 }
 
 impl Source {
@@ -20,6 +22,8 @@ impl Source {
             tags: Vec::new(),
             tests: Vec::new(),
             meta: HashMap::new(),
+            yaml_file: None,
+            sql_file: None,
         }
     }
 
